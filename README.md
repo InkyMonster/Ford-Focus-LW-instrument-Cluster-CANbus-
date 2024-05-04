@@ -11,9 +11,70 @@ As a side note I had not looked into any of the I-CAN messages at this point in 
 There firstly the most obvious thing you will need is a board to send the CAN messages there are a few boards you can use like on of the more popular options the [SeedStudio Arduino CANbus Shield](https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/) or somehting like I had used [CANable dongle](https://canable.io/) (I had flashed mine with the knock off PCAN firmware). But that being said as long as your board can suport 125KBPS messaging your good to go!
 
 
-## Hooking things up:
+## Hooking things up (2012 LW):
 
 ![Cluster connector](InstrementClusterFocusPinout.jpg) 
+
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow">Pin</th>
+    <th class="tg-c3ow">Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow" colspan="2">MS-CAN - </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow" colspan="2">MS-CAN + </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow" colspan="2">VBAT (12V)</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">4</td>
+    <td class="tg-c3ow" colspan="2">I-CAN -</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow" colspan="2">I-CAN +</td>
+  </tr>
+   <tr>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow" colspan="2">NA</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">7</td>
+    <td class="tg-c3ow" colspan="2">NA</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">8</td>
+    <td class="tg-c3ow" colspan="2">NA</td>
+  </tr>
+    <tr>
+    <td class="tg-c3ow">9</td>
+    <td class="tg-c3ow" colspan="2">Park detect swithc</td>
+  </tr>
+     <tr>
+    <td class="tg-c3ow">10</td>
+    <td class="tg-c3ow" colspan="2">GND</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">11</td>
+    <td class="tg-c3ow" colspan="2">NA</td>
+  </tr>
+    <tr>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow" colspan="2">NA</td>
+  </tr>
+</tbody>
+</table>
+
 
 
 ## MS Bus Meesage overview
