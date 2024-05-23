@@ -1,7 +1,7 @@
 
 
 #
-# MS CAN bus messages for Ford Focus LW clusters 
+# MS CAN bus messages for Ford Focus LW clusters (2012 onward)
 I wanted to use the cluster from the focus to link up to race smims. Seeing as no one (form what I have seen) has published what CAN bus messages interact with the cluster I ended up doing it myself. So hopeful someone out there finds this useful! :) 
 
 Just a heads up as stated my main goal was just to get the cluster working outside the car so there are a few messages in this list I don't 100% know what they do or are for but are needed to make it "work" that being said I have tried to break them down as much as possible.
